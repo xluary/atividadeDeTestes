@@ -2,10 +2,7 @@ package com.example.demo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Instant;
 
 public class MagazineLuiza extends Page{
 
@@ -46,4 +43,8 @@ public class MagazineLuiza extends Page{
     public WebElement getTituloProdutos(){
         return driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section[4]/div[1]/div/h1"));
     }
+
+
+
+
 }
